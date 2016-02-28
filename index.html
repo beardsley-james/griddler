@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+	
+<html>
+
+	<head>
+	
+		<title>Nonogram</title>
+		
+		<link rel="stylesheet" href="./css/index.css">
+	
+	</head>
+	
+	<body>
+	
+		<header>
+		
+			<h1>Nonogram</h1>
+		
+		</header>
+		
+		<section id="selectionMenu">
+		
+			<button id="selectMake">Make Nonogram</button>
+			
+			<button id="selectSolve">Solve Nonogram</button>
+		
+		</section>
+		
+		<form id="makeForm">
+		
+			<input type="text" id="makeFormWidth">
+			
+			<input type="text" id="makeFormHeight">
+			
+			<button type ="submit" id="makeFormSubmit">Submit</button>
+		
+		</form>
+		
+		<section id="solveMenu">
+		
+			<button id="solveMenuHorse">Horse</button>
+			
+			<button id="solveMenuCat">Cat</button>
+			
+			<button id="solveMenuBoy">Boy</button>
+		
+		</section>
+		
+		<table id="puzzle">
+		
+			<tr>
+			
+				<td></td>
+				
+				<td class="col0 colHead">
+					<span id="col0Head0">1</span>
+				</td>
+				
+				<td class="col0 colHead">
+					<span id="col1Head0">1</span>
+				</td>
+				
+			</tr>
+			
+			<tr>
+			
+				<td class="row0 rowHead">
+					<span id="row0Head0">1</span>
+				</td>
+				
+				<td class="row0 col0 black">X</td>
+				
+				<td class="row0 col1 flag">X</td>
+			
+			</tr>
+			
+			<tr>
+			
+				<td class="row1 rowHead">
+					<span id="row1Head0">1</span>
+					<span id="row1Head1">1</span>
+				</td>
+				
+				<td class="row1 col0 white">0</td>
+				
+				<td class="row1 col1 white">0</td>
+			
+			</tr>
+		
+		</table>
+		
+		<script src="./js/jquery.js"></script>
+		<script src="./js/generate.js"></script>
+		<script src="./js/render.js"></script>
+		<script src="./js/index.js"></script>
+	
+	</body>
+
+</html>

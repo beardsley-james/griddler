@@ -1,0 +1,38 @@
+td {
+	width: 2em;
+	height: 2em;
+	border: solid black 1px;
+}
+
+.black {
+	background-color: black
+}
+
+.rowHead {
+	border: none;
+	text-align: right;
+	width: auto;
+}
+
+.colHead {
+	border: none;
+	text-align: center;
+	height: auto;
+}
+
+.drawSelector {
+	border: none;
+	width: auto;
+	height: auto;
+}
+
+#palette {
+	width: 25px;
+	height: 25px;
+	border: solid black 1px;
+	display: block;
+}
+
+#puzzle {
+	margin: auto;
+}
